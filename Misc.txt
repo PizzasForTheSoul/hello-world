@@ -1,0 +1,36 @@
+span.MsoFootnoteReference
+	{
+	font-family: "Georgia",serif;
+	color: windowtext;
+	font-style: normal;
+}
+
+	NO:
+	margin-top: -30px;
+	padding-bottom: 30px;
+	display:block;
+
+
+First, you gotta put your font as either a .otf or .ttf somewhere on your server.
+
+Then use CSS to declare the new font family like this:
+
+@font-face {
+    font-family: MyFont;
+    src: url('pathway/myfont.otf'); 
+    }
+
+Georgia
+Minion Pro SmBd
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;}
+@font-face
+	{font-family:"Minion Pro";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Minion Pro SmBd";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:GentiumAlt;}
+
