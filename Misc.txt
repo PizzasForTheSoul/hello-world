@@ -1,4 +1,3 @@
-Oh
 span.MsoFootnoteReference
 	{
 	font-family: "Georgia",serif;
